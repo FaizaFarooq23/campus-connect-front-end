@@ -33,7 +33,7 @@ for (let i = 0; i < users.length; i++) {
             <span class="likes">Liked by <span class="like-name">${users[i].name}</span> and <span class="others">others</span></span>
         </div>
         <div class="feed-caption">
-            <span class="name">${users[i].name}</span>
+            <span class="caption-name">${users[i].name}</span>
             <span class="caption">${users[i].caption}</span>
         </div>
     <div class="line"></div>
